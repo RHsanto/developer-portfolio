@@ -35,9 +35,10 @@ section{
   margin-top: 20px;
   margin-left: 40px;
   width: 80%;
+  color: #777990;
 }
 .head img{
-  width: 110%;
+  width: 100%;
  margin-top: -50px;
 }
 
@@ -58,3 +59,14 @@ position: absolute;
   background-image: url(images/top-banner.png);
  background-repeat: no-repeat;
 }
+
+.dream{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position: top 60px right;
+
+}
+.dream .dimg{
+  width: 90%;
+}
+
