@@ -38,13 +38,13 @@ h1{
   color: #777990;
 }
 .head img{
-  width: 100%;
- margin-top: -50px;
+width: 100%;
+margin-top: -50px;
 }
 
 .btn{
-  padding: 10px 40px;
-  border:none ;
+padding: 10px 40px;
+border:none ;
 background: radial-gradient(#ff906a,#FF694C);
 font-weight: 800;
 color: white;
@@ -139,4 +139,146 @@ padding-right: 20px;
   color: #777990;
 padding: 10px;
 
+}
+/* media query */
+
+@media only screen and (max-width: 768px) {
+
+  .head img{
+    margin-top: 50px;
+  }
+
+.dream{
+margin-top: 100px;
+
+}
+
+.box{
+  display: block;
+  margin-bottom: 150px;
+}
+
+.exbox{
+width: 80%;
+}
+.exbox2{
+margin-top: 50px;
+width: 80%;
+margin-left: 60px;
+}
+
+.copyright{
+margin-top: -100px;
+margin-bottom: 250px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+  .head h1{
+    font-size: 2rem;
+  }
+  .head img{
+    margin-top: 50px;
+  }
+
+  .btn{
+    width: 15%;
+    font-size: 15px;
+    text-align: center;
+  }
+.dream{
+margin-top: 100px;
+
+}
+
+.exbox  h1, .exbox2  h1{
+  font-size: 30px;
+}
+.exbox span, .exbox2 span{
+  font-size: 16px;
+}
+.exbox p, .exbox2 p{
+  font-size: 14px;
+}
+
+.box{
+  display: block;
+  margin-bottom: 150px;
+}
+
+.exbox{
+width: 80%;
+}
+.exbox2{
+margin-top: 50px;
+width: 80%;
+margin-left: 60px;
+}
+
+.copyright{
+margin-top: -100px;
+margin-bottom: 50px;
+}
+}
+
+/* mobile layout */
+
+@media only screen and (max-width: 375px){
+  .head h1{
+    font-size: 2rem;
+  }
+  .head img{
+    margin-top: 50px;
+  }
+  .btn{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 70px;
+    width: 10%;
+  }
+
+
+.dream{margin-top: 100px;
+
+}
+
+.dreamp{
+  font-size: 15px;
+padding-right: 5px;
+text-align: center;
+}
+.Experiences h1{
+  font-size: 40px;
+}
+
+.exbox  h1, .exbox2  h1{font-size: 20px;}
+
+.exbox span, .exbox2 span{font-size:0.6rem;
+
+margin-left: -5px;
+}
+
+.exbox p, .exbox2 p{font-size: 0.5rem;}
+
+.box{display: block;margin-bottom: 150px;}
+
+.exbox{width: 70%;
+}
+
+.exbox2{
+margin-top: 50px;
+width: 70%;
+margin-left: 60px;
+}
+.dream {
+margin-right: 15px;
+}
+.copyright{
+margin-top: -100px;
+margin-bottom: 50px;
+margin-left: 10px;
+font-size: 14px;
+}
 }
